@@ -32,31 +32,8 @@ O fluxo de processamento funciona de maneira encadeada entre as camadas da nossa
 
 ## 🛠️ Como Rodar a Aplicação Localmente
 
-Siga o passo a passo abaixo para instalar e rodar o projeto na sua máquina:
-
-### 1. Pré-requisitos
-Certifique-se de ter instalado em sua máquina:
-* [Node.js](https://nodejs.org/) (versão 18 ou superior)
-
-
-### 2. Baixando o Projeto
-```bash
-git clone https://github.com/IsabelRReis/PDFVoice.git
-```
-### 3. Configuração de Variáveis de Ambiente
-Na raiz do projeto, você encontrará o arquivo.
-
-Crie um .env`
-```bash
-JWT_SECRET=super-secret-pdf-audiobook-key-2026
-GEMINI_API_KEY=sua_chave_de_api_aqui
-```
-
-### 4. Instalando as Dependências
-Execute o comando abaixo para instalar todos os pacotes necessários:
-```bash
-npm install
-```
+## Link da Aplicação 
+<a href="https://pdf-audiobook-converter-269227672859.us-east1.run.app/">Clique aqui</a>
 
 ### 5. Executando em Ambiente de Desenvolvimento
 Para iniciar a aplicação com recarga automática de alterações (Hot Reload):
@@ -64,3 +41,12 @@ Para iniciar a aplicação com recarga automática de alterações (Hot Reload):
 npm run dev
 ```
 
+<div style="display: inline_block"><br>
+  <img aligt="center" alt="TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> 
+  <img aligt="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /> 
+  <img aligt="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /> 
+  <img aligt="center" alt="Gemini" height="30" width="30" src="https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png&color=000000"/>
+  <img aligt="center" alt="Prisma" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg"/>
+  <img aligt="center" alt="Google_Cloud" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" />
+          
+</div>
