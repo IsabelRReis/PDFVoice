@@ -14,6 +14,17 @@
 
 ---
 
+<div style="display: inline_block"><br>
+  <img aligt="center" alt="TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> 
+  <img aligt="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /> 
+  <img aligt="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /> 
+  <img aligt="center" alt="Gemini" height="30" width="30" src="https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png&color=000000"/>
+  <img aligt="center" alt="Prisma" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg"/>
+  <img aligt="center" alt="Google_Cloud" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" />     
+</div
+  
+---
+
 ## 🏗️ Lógica e Fluxo da Aplicação
 
 O fluxo de processamento funciona de maneira encadeada entre as camadas da nossa aplicação:
@@ -41,18 +52,10 @@ Para iniciar a aplicação com recarga automática de alterações (Hot Reload):
 npm run dev
 ```
 
-<div style="display: inline_block"><br>
-  <img aligt="center" alt="TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> 
-  <img aligt="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" /> 
-  <img aligt="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" /> 
-  <img aligt="center" alt="Gemini" height="30" width="30" src="https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png&color=000000"/>
-  <img aligt="center" alt="Prisma" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg"/>
-  <img aligt="center" alt="Google_Cloud" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" />
-          
-</div>
-
 ## Usuário Padrão
 <img width="1024" height="650" alt="2026-06-09 00-58-42" src="https://github.com/user-attachments/assets/8e2c97d4-c2e9-4242-b999-f023966adbcc" />
+
+---
 
 ## Administrador
 <img width="1024" height="650" alt="2026-06-09 00-57-00" src="https://github.com/user-attachments/assets/12abd3b9-34df-4ed8-aa68-1b2f8c34d566" />
