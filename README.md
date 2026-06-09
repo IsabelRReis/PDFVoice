@@ -50,3 +50,9 @@ npm run dev
   <img aligt="center" alt="Google_Cloud" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" />
           
 </div>
+
+## Usuário Padrão
+<img width="1024" height="650" alt="2026-06-09 00-58-42" src="https://github.com/user-attachments/assets/8e2c97d4-c2e9-4242-b999-f023966adbcc" />
+
+## Administrador
+<img width="1024" height="650" alt="2026-06-09 00-57-00" src="https://github.com/user-attachments/assets/12abd3b9-34df-4ed8-aa68-1b2f8c34d566" />
