@@ -1,0 +1,8 @@
+{
+  "name": "PDF Audiobook Converter",
+  "description": "Convert your PDF files to playable audiobooks, manage user permissions, and play audio tracks with a custom responsive player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

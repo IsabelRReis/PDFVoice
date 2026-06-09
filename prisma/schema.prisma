@@ -1,0 +1,60 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id           String       @id @default(uuid())
+  name         String
+  email        String       @unique
+  passwordHash String
+  role         String       @default("USER") // ADMIN or USER
+  createdAt    DateTime     @default(now())
+  permissions  Permission[]
+}
+
+model Audiobook {
+  id          String       @id @default(uuid())
+  title       String
+  originalPdf String
+  status      String       @default("ENVIADO") // ENVIADO, PROCESSANDO, PRONTO, FALHOU, NECESSITA_OCR
+  createdAt   DateTime     @default(now())
+  tracks      Track[]
+  permissions Permission[]
+}
+
+model Track {
+  id          String    @id @default(uuid())
+  audiobookId String
+  title       String
+  filePath    String
+  duration    Int       // duration in seconds
+  order       Int       // Track order (1, 2, 3...)
+  audiobook   Audiobook @relation(fields: [audiobookId], references: [id], onDelete: Cascade)
+}
+
+model Permission {
+  id          String    @id @default(uuid())
+  userId      String
+  audiobookId String
+  grantedAt   DateTime  @default(now())
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  audiobook   Audiobook @relation(fields: [audiobookId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, audiobookId])
+}
+
+model Log {
+  id        String   @id @default(uuid())
+  level     String   // info, warn, error
+  action    String   // Login, Cadastro, Upload PDF, etc.
+  message   String
+  createdAt DateTime @default(now())
+}

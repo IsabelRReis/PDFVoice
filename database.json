@@ -1,0 +1,1092 @@
+{
+  "users": [
+    {
+      "id": "user-admin-1",
+      "name": "Software Architect Admin",
+      "email": "admin@audiobook.com",
+      "passwordHash": "$2b$10$VWqkAtFIEe3MClgM1dK7Cuejb0chcdS3F4JbjZHu9NZpSOWZLNBK.",
+      "role": "ADMIN",
+      "createdAt": "2026-06-08T21:05:32.630Z"
+    },
+    {
+      "id": "user-regular-2",
+      "name": "Vitor Reis",
+      "email": "user@audiobook.com",
+      "passwordHash": "$2b$10$y9g4SX1NuvlyVFvdeHn7ou.ARRAaAoeaufErCc4j..4fOur4CXQDC",
+      "role": "USER",
+      "createdAt": "2026-06-08T21:05:32.630Z"
+    }
+  ],
+  "audiobooks": [
+    {
+      "id": "book-1780964016789-z2v0",
+      "title": "Aula 05 - Introducao aos Sistemas Estruturados",
+      "originalPdf": "1780964016775-Aula 05 - Introducao aos Sistemas Estruturados.pdf",
+      "status": "PRONTO",
+      "createdAt": "2026-06-09T00:13:36.789Z"
+    },
+    {
+      "id": "book-1780964050942-x1bd",
+      "title": "Redes08 - Modelo ISO-OSI",
+      "originalPdf": "1780964050942-Redes08 - Modelo ISO-OSI.pdf",
+      "status": "PRONTO",
+      "createdAt": "2026-06-09T00:14:10.942Z"
+    },
+    {
+      "id": "book-1780964317841-z0a9",
+      "title": "Redes08 - Modelo ISO-OSI",
+      "originalPdf": "1780964317840-Redes08 - Modelo ISO-OSI.pdf",
+      "status": "PRONTO",
+      "createdAt": "2026-06-09T00:18:37.841Z"
+    },
+    {
+      "id": "book-1780965773061-vs8z",
+      "title": "Teste: Breve História da IA (Texto Puro)",
+      "originalPdf": "1780965773061-teste-texto-puro-ia.pdf",
+      "status": "ENVIADO",
+      "createdAt": "2026-06-09T00:42:53.061Z"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "track-1780964329932-qejx",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 1: FATEC SJC\nAnálise e Desenvolvimento...",
+      "filePath": "track-book-1780964317841-z0a9-1.wav",
+      "duration": 16,
+      "order": 1
+    },
+    {
+      "id": "track-1780964352354-kk4v",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 2: Padronização Internacional\nAs organizações internacionais...",
+      "filePath": "track-book-1780964317841-z0a9-2.wav",
+      "duration": 37,
+      "order": 2
+    },
+    {
+      "id": "track-1780964374044-ajwo",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 3: No Brasil a ABNT...",
+      "filePath": "track-book-1780964317841-z0a9-3.wav",
+      "duration": 39,
+      "order": 3
+    },
+    {
+      "id": "track-1780964393951-05nm",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 4: Norma NBR14565\nNo Brasil, a...",
+      "filePath": "track-book-1780964317841-z0a9-4.wav",
+      "duration": 40,
+      "order": 4
+    },
+    {
+      "id": "track-1780964394418-fppf",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 5: Motivação\nQuando as redes de...",
+      "filePath": "track-book-1780964317841-z0a9-5.wav",
+      "duration": 29,
+      "order": 5
+    },
+    {
+      "id": "track-1780964394551-12rt",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 6: Modelo de Referência OSI...",
+      "filePath": "track-book-1780964317841-z0a9-6.wav",
+      "duration": 47,
+      "order": 6
+    },
+    {
+      "id": "track-1780964394719-bu2m",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 7: • Criar um padrão...",
+      "filePath": "track-book-1780964317841-z0a9-7.wav",
+      "duration": 26,
+      "order": 7
+    },
+    {
+      "id": "track-1780964394875-xkfs",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 8: • Não se refere...",
+      "filePath": "track-book-1780964317841-z0a9-8.wav",
+      "duration": 28,
+      "order": 8
+    },
+    {
+      "id": "track-1780964395119-4egf",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 9: • O modelo OSI...",
+      "filePath": "track-book-1780964317841-z0a9-9.wav",
+      "duration": 46,
+      "order": 9
+    },
+    {
+      "id": "track-1780964395224-5558",
+      "audiobookId": "book-1780964317841-z0a9",
+      "title": "Faixa 10: Protocolos de Aplicação\nProtocolos de...",
+      "filePath": "track-book-1780964317841-z0a9-10.wav",
+      "duration": 20,
+      "order": 10
+    },
+    {
+      "id": "track-1780965351504-ofhg",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 1: FATEC SJC\nAnálise e Desenvolvimento...",
+      "filePath": "track-book-1780964050942-x1bd-1.wav",
+      "duration": 6,
+      "order": 1
+    },
+    {
+      "id": "track-1780965351723-newg",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 2: Padronização Internacional\nAs organizações internacionais...",
+      "filePath": "track-book-1780964050942-x1bd-2.wav",
+      "duration": 24,
+      "order": 2
+    },
+    {
+      "id": "track-1780965351860-uqjl",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 3: No Brasil a ABNT...",
+      "filePath": "track-book-1780964050942-x1bd-3.wav",
+      "duration": 30,
+      "order": 3
+    },
+    {
+      "id": "track-1780965352073-nijr",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 4: Norma NBR14565\nNo Brasil, a...",
+      "filePath": "track-book-1780964050942-x1bd-4.wav",
+      "duration": 33,
+      "order": 4
+    },
+    {
+      "id": "track-1780965352203-7clr",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 5: Motivação\nQuando as redes de...",
+      "filePath": "track-book-1780964050942-x1bd-5.wav",
+      "duration": 29,
+      "order": 5
+    },
+    {
+      "id": "track-1780965352399-czwl",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 6: Modelo de Referência OSI...",
+      "filePath": "track-book-1780964050942-x1bd-6.wav",
+      "duration": 47,
+      "order": 6
+    },
+    {
+      "id": "track-1780965352513-742m",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 7: • Criar um padrão...",
+      "filePath": "track-book-1780964050942-x1bd-7.wav",
+      "duration": 26,
+      "order": 7
+    },
+    {
+      "id": "track-1780965352695-y4n6",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 8: • Não se refere...",
+      "filePath": "track-book-1780964050942-x1bd-8.wav",
+      "duration": 28,
+      "order": 8
+    },
+    {
+      "id": "track-1780965352825-uork",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 9: • O modelo OSI...",
+      "filePath": "track-book-1780964050942-x1bd-9.wav",
+      "duration": 46,
+      "order": 9
+    },
+    {
+      "id": "track-1780965352982-cctd",
+      "audiobookId": "book-1780964050942-x1bd",
+      "title": "Faixa 10: Protocolos de Aplicação\nProtocolos de...",
+      "filePath": "track-book-1780964050942-x1bd-10.wav",
+      "duration": 20,
+      "order": 10
+    },
+    {
+      "id": "track-1780965466238-av43",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 1: Curso Técnico Integrado em\nManutenção...",
+      "filePath": "track-book-1780964016789-z2v0-1.wav",
+      "duration": 21,
+      "order": 1
+    },
+    {
+      "id": "track-1780965466381-0a40",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 2: Introdução\n As redes de...",
+      "filePath": "track-book-1780964016789-z2v0-2.wav",
+      "duration": 36,
+      "order": 2
+    },
+    {
+      "id": "track-1780965466521-kz0m",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 3: Introdução\n A tecnologia das...",
+      "filePath": "track-book-1780964016789-z2v0-3.wav",
+      "duration": 31,
+      "order": 3
+    },
+    {
+      "id": "track-1780965466643-ye79",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 4: Introdução\n É cada vez...",
+      "filePath": "track-book-1780964016789-z2v0-4.wav",
+      "duration": 24,
+      "order": 4
+    },
+    {
+      "id": "track-1780965467021-pw9e",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 5: O Sistema Estruturado\n Sistemas...",
+      "filePath": "track-book-1780964016789-z2v0-5.wav",
+      "duration": 42,
+      "order": 5
+    },
+    {
+      "id": "track-1780965467159-qtpl",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 6: O Sistema Estruturado\n Conceito...",
+      "filePath": "track-book-1780964016789-z2v0-6.wav",
+      "duration": 46,
+      "order": 6
+    },
+    {
+      "id": "track-1780965467291-k0it",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 7: O Sistema Estruturado\n Um...",
+      "filePath": "track-book-1780964016789-z2v0-7.wav",
+      "duration": 41,
+      "order": 7
+    },
+    {
+      "id": "track-1780965467402-ahnw",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 8: O Sistema Estruturado\n Panorama...",
+      "filePath": "track-book-1780964016789-z2v0-8.wav",
+      "duration": 12,
+      "order": 8
+    },
+    {
+      "id": "track-1780965467515-zn5z",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 9: Cabeamento não-estruturado\n É aquele...",
+      "filePath": "track-book-1780964016789-z2v0-9.wav",
+      "duration": 23,
+      "order": 9
+    },
+    {
+      "id": "track-1780965467651-pm8j",
+      "audiobookId": "book-1780964016789-z2v0",
+      "title": "Faixa 10: Cabeamento não-estruturado\n Outras características...",
+      "filePath": "track-book-1780964016789-z2v0-10.wav",
+      "duration": 31,
+      "order": 10
+    }
+  ],
+  "permissions": [
+    {
+      "id": "perm-1780965496203-7t26",
+      "userId": "user-regular-2",
+      "audiobookId": "book-1780964016789-z2v0",
+      "grantedAt": "2026-06-09T00:38:16.203Z"
+    },
+    {
+      "id": "perm-1780965499836-kvmt",
+      "userId": "user-regular-2",
+      "audiobookId": "book-1780964317841-z0a9",
+      "grantedAt": "2026-06-09T00:38:19.836Z"
+    }
+  ],
+  "logs": [
+    {
+      "id": "log-1",
+      "level": "info",
+      "action": "Cadastro",
+      "message": "Usuário administrador e usuário padrão criados automaticamente no sistema.",
+      "createdAt": "2026-06-08T21:05:32.630Z"
+    },
+    {
+      "id": "log-1780962904163-k8lm",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-08T23:55:04.163Z"
+    },
+    {
+      "id": "log-1780962904164-ogs4",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-08T23:55:04.164Z"
+    },
+    {
+      "id": "log-1780962907510-f9yp",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Sucesso no teste TTS! Buffer de áudio gerado com 217004 bytes (WAV).",
+      "createdAt": "2026-06-08T23:55:07.510Z"
+    },
+    {
+      "id": "log-1780962965038-fquf",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-08T23:56:05.038Z"
+    },
+    {
+      "id": "log-1780962965038-2b5e",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-08T23:56:05.038Z"
+    },
+    {
+      "id": "log-1780962968743-k7qv",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Sucesso no teste TTS! Buffer de áudio gerado com 245804 bytes (WAV).",
+      "createdAt": "2026-06-08T23:56:08.743Z"
+    },
+    {
+      "id": "log-1780963209034-44cn",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-09T00:00:09.034Z"
+    },
+    {
+      "id": "log-1780963209037-3zef",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-09T00:00:09.037Z"
+    },
+    {
+      "id": "log-1780963212497-p44a",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Sucesso no teste TTS! Buffer de áudio gerado com 238124 bytes (WAV).",
+      "createdAt": "2026-06-09T00:00:12.497Z"
+    },
+    {
+      "id": "log-1780963953690-ngrx",
+      "level": "warn",
+      "action": "Login",
+      "message": "Falha de login de e-mail inexistente ou senha incorreta: admin@audiobook.local",
+      "createdAt": "2026-06-09T00:12:33.690Z"
+    },
+    {
+      "id": "log-1780963965713-uoyk",
+      "level": "warn",
+      "action": "Login",
+      "message": "Falha de login de e-mail inexistente ou senha incorreta: admin@audiobook.local",
+      "createdAt": "2026-06-09T00:12:45.713Z"
+    },
+    {
+      "id": "log-1780963975952-h787",
+      "level": "info",
+      "action": "Login",
+      "message": "Usuário realizou login com sucesso: Software Architect Admin (admin@audiobook.com)",
+      "createdAt": "2026-06-09T00:12:55.952Z"
+    },
+    {
+      "id": "log-1780964016790-4fm4",
+      "level": "info",
+      "action": "Upload PDF",
+      "message": "PDF enviado: \"Aula 05 - Introducao aos Sistemas Estruturados\" (1780964016775-Aula 05 - Introducao aos Sistemas Estruturados.pdf)",
+      "createdAt": "2026-06-09T00:13:36.790Z"
+    },
+    {
+      "id": "log-1780964016790-pyhm",
+      "level": "info",
+      "action": "Conversão iniciada",
+      "message": "Conversão para áudio iniciada: \"Aula 05 - Introducao aos Sistemas Estruturados\"",
+      "createdAt": "2026-06-09T00:13:36.790Z"
+    },
+    {
+      "id": "log-1780964016795-z5bw",
+      "level": "error",
+      "action": "Falha na conversão",
+      "message": "Erro ao converter o PDF: \"Aula 05 - Introducao aos Sistemas Estruturados\"",
+      "createdAt": "2026-06-09T00:13:36.795Z"
+    },
+    {
+      "id": "log-1780964050942-5lkq",
+      "level": "info",
+      "action": "Upload PDF",
+      "message": "PDF enviado: \"Redes08 - Modelo ISO-OSI\" (1780964050942-Redes08 - Modelo ISO-OSI.pdf)",
+      "createdAt": "2026-06-09T00:14:10.942Z"
+    },
+    {
+      "id": "log-1780964050942-emdr",
+      "level": "info",
+      "action": "Conversão iniciada",
+      "message": "Conversão para áudio iniciada: \"Redes08 - Modelo ISO-OSI\"",
+      "createdAt": "2026-06-09T00:14:10.942Z"
+    },
+    {
+      "id": "log-1780964050943-0j89",
+      "level": "error",
+      "action": "Falha na conversão",
+      "message": "Erro ao converter o PDF: \"Redes08 - Modelo ISO-OSI\"",
+      "createdAt": "2026-06-09T00:14:10.943Z"
+    },
+    {
+      "id": "log-1780964144775-n91n",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-09T00:15:44.775Z"
+    },
+    {
+      "id": "log-1780964144775-535a",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-09T00:15:44.775Z"
+    },
+    {
+      "id": "log-1780964147816-xn3e",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Sucesso no teste TTS! Buffer de áudio gerado com 230444 bytes (WAV).",
+      "createdAt": "2026-06-09T00:15:47.816Z"
+    },
+    {
+      "id": "log-1780964272992-ylcf",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-09T00:17:52.992Z"
+    },
+    {
+      "id": "log-1780964272992-i0lq",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-09T00:17:52.992Z"
+    },
+    {
+      "id": "log-1780964277003-oh0w",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Sucesso no teste TTS! Buffer de áudio gerado com 251564 bytes (WAV).",
+      "createdAt": "2026-06-09T00:17:57.003Z"
+    },
+    {
+      "id": "log-1780964283854-gb1b",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-09T00:18:03.854Z"
+    },
+    {
+      "id": "log-1780964283854-bq1g",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-09T00:18:03.854Z"
+    },
+    {
+      "id": "log-1780964287206-nv6z",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Sucesso no teste TTS! Buffer de áudio gerado com 238124 bytes (WAV).",
+      "createdAt": "2026-06-09T00:18:07.206Z"
+    },
+    {
+      "id": "log-1780964317841-hiii",
+      "level": "info",
+      "action": "Upload PDF",
+      "message": "PDF enviado: \"Redes08 - Modelo ISO-OSI\" (1780964317840-Redes08 - Modelo ISO-OSI.pdf)",
+      "createdAt": "2026-06-09T00:18:37.841Z"
+    },
+    {
+      "id": "log-1780964317842-1cl6",
+      "level": "info",
+      "action": "Conversão iniciada",
+      "message": "Conversão para áudio iniciada: \"Redes08 - Modelo ISO-OSI\"",
+      "createdAt": "2026-06-09T00:18:37.842Z"
+    },
+    {
+      "id": "log-1780964319869-1x6g",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"FATEC SJC\nAnálise e Desenvolvimento de\nSistem...\"",
+      "createdAt": "2026-06-09T00:18:39.869Z"
+    },
+    {
+      "id": "log-1780964329931-qbdq",
+      "level": "info",
+      "action": "TTS",
+      "message": "Faixa 1 gerada com voz real do Gemini. Duração: 16 segundos",
+      "createdAt": "2026-06-09T00:18:49.931Z"
+    },
+    {
+      "id": "log-1780964329933-2y9r",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Padronização Internacional\nAs organizações in...\"",
+      "createdAt": "2026-06-09T00:18:49.933Z"
+    },
+    {
+      "id": "log-1780964352352-6oty",
+      "level": "info",
+      "action": "TTS",
+      "message": "Faixa 2 gerada com voz real do Gemini. Duração: 37 segundos",
+      "createdAt": "2026-06-09T00:19:12.352Z"
+    },
+    {
+      "id": "log-1780964352354-xu7o",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"No Brasil a ABNT é o órgão responsável por su...\"",
+      "createdAt": "2026-06-09T00:19:12.354Z"
+    },
+    {
+      "id": "log-1780964374042-dl8p",
+      "level": "info",
+      "action": "TTS",
+      "message": "Faixa 3 gerada com voz real do Gemini. Duração: 39 segundos",
+      "createdAt": "2026-06-09T00:19:34.042Z"
+    },
+    {
+      "id": "log-1780964374044-7ezo",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Norma NBR14565\nNo Brasil, a norma que estabel...\"",
+      "createdAt": "2026-06-09T00:19:34.044Z"
+    },
+    {
+      "id": "log-1780964393949-6l89",
+      "level": "info",
+      "action": "TTS",
+      "message": "Faixa 4 gerada com voz real do Gemini. Duração: 40 segundos",
+      "createdAt": "2026-06-09T00:19:53.949Z"
+    },
+    {
+      "id": "log-1780964393951-27r3",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Motivação\nQuando as redes de computadores sur...\"",
+      "createdAt": "2026-06-09T00:19:53.951Z"
+    },
+    {
+      "id": "log-1780964394050-3rhh",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 5 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 5.971907864s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"5s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:19:54.050Z"
+    },
+    {
+      "id": "log-1780964394419-d8k3",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Modelo de Referência OSI da ISO\nPara facilita...\"",
+      "createdAt": "2026-06-09T00:19:54.419Z"
+    },
+    {
+      "id": "log-1780964394503-lshv",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 6 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 5.517929353s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"5s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:19:54.503Z"
+    },
+    {
+      "id": "log-1780964394551-8ajj",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"• Criar um padrão para redes que permita a co...\"",
+      "createdAt": "2026-06-09T00:19:54.551Z"
+    },
+    {
+      "id": "log-1780964394688-0f0y",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 7 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 5.334626871s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"5s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:19:54.688Z"
+    },
+    {
+      "id": "log-1780964394720-6fkr",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"• Não se refere a nenhum hardware específico ...\"",
+      "createdAt": "2026-06-09T00:19:54.720Z"
+    },
+    {
+      "id": "log-1780964394839-902w",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 8 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 5.185524535s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"5s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:19:54.839Z"
+    },
+    {
+      "id": "log-1780964394876-wvok",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"• O modelo OSI é composto por sete camadas. C...\"",
+      "createdAt": "2026-06-09T00:19:54.876Z"
+    },
+    {
+      "id": "log-1780964395051-pt4r",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 9 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 4.978722941s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"4s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:19:55.051Z"
+    },
+    {
+      "id": "log-1780964395120-js6o",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Protocolos de Aplicação\nProtocolos de Apresen...\"",
+      "createdAt": "2026-06-09T00:19:55.120Z"
+    },
+    {
+      "id": "log-1780964395201-iiwb",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 10 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 4.821173542s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"4s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:19:55.201Z"
+    },
+    {
+      "id": "log-1780964395224-nrji",
+      "level": "info",
+      "action": "Conversão concluída",
+      "message": "Conversão para áudio concluída com sucesso: \"Redes08 - Modelo ISO-OSI\"",
+      "createdAt": "2026-06-09T00:19:55.224Z"
+    },
+    {
+      "id": "log-1780964640907-79o9",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-09T00:24:00.907Z"
+    },
+    {
+      "id": "log-1780964640908-f0kb",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-09T00:24:00.908Z"
+    },
+    {
+      "id": "log-1780964647482-uhxd",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-09T00:24:07.482Z"
+    },
+    {
+      "id": "log-1780964647483-x7q1",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-09T00:24:07.483Z"
+    },
+    {
+      "id": "log-1780964650373-a20k",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Sucesso no teste TTS! Buffer de áudio gerado com 226604 bytes (WAV).",
+      "createdAt": "2026-06-09T00:24:10.373Z"
+    },
+    {
+      "id": "log-1780965182669-obf0",
+      "level": "info",
+      "action": "Diagnóstico Áudio",
+      "message": "Iniciando teste de diagnóstico de voz Gemini TTS...",
+      "createdAt": "2026-06-09T00:33:02.669Z"
+    },
+    {
+      "id": "log-1780965182670-onzv",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Teste de inicialização do sistema e síntese d...\"",
+      "createdAt": "2026-06-09T00:33:02.670Z"
+    },
+    {
+      "id": "log-1780965182957-han9",
+      "level": "error",
+      "action": "Diagnóstico Áudio",
+      "message": "Falha crítica no teste de voz real do Gemini: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 57.141885527s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"57s\"}]}}. Detalhes erro: ApiError: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 57.141885527s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"57s\"}]}}\n    at throwErrorIfNotOK (/app/applet/node_modules/@google/genai/src/_api_client.ts:983:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async <anonymous> (/app/applet/node_modules/@google/genai/src/_api_client.ts:588:9)\n    at async Models.Models.generateContent (/app/applet/node_modules/@google/genai/src/models.ts:128:14)\n    at async generateSpeechWav (/app/applet/server.ts:135:20)",
+      "createdAt": "2026-06-09T00:33:02.957Z"
+    },
+    {
+      "id": "log-1780965349425-q3oc",
+      "level": "info",
+      "action": "Conversão iniciada",
+      "message": "Conversão para áudio iniciada: \"Redes08 - Modelo ISO-OSI\"",
+      "createdAt": "2026-06-09T00:35:49.425Z"
+    },
+    {
+      "id": "log-1780965349428-6fkx",
+      "level": "info",
+      "action": "Reprocessamento",
+      "message": "Reprocessamento manual solicitado para o audiobook: \"Redes08 - Modelo ISO-OSI\"",
+      "createdAt": "2026-06-09T00:35:49.428Z"
+    },
+    {
+      "id": "log-1780965351359-dvtl",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"FATEC SJC\nAnálise e Desenvolvimento de\nSistem...\"",
+      "createdAt": "2026-06-09T00:35:51.359Z"
+    },
+    {
+      "id": "log-1780965351488-j0x5",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 1 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 8.543524755s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.1-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"8s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:51.488Z"
+    },
+    {
+      "id": "log-1780965351505-8k1y",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Padronização Internacional\nAs organizações in...\"",
+      "createdAt": "2026-06-09T00:35:51.505Z"
+    },
+    {
+      "id": "log-1780965351701-mc93",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 2 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 8.329841821s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"8s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:51.701Z"
+    },
+    {
+      "id": "log-1780965351724-e5ks",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"No Brasil a ABNT é o órgão responsável por su...\"",
+      "createdAt": "2026-06-09T00:35:51.724Z"
+    },
+    {
+      "id": "log-1780965351832-1kzi",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 3 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 8.189824726s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"8s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:51.832Z"
+    },
+    {
+      "id": "log-1780965351860-1tqd",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Norma NBR14565\nNo Brasil, a norma que estabel...\"",
+      "createdAt": "2026-06-09T00:35:51.860Z"
+    },
+    {
+      "id": "log-1780965352043-q002",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 4 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 7.986689012s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"7s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:52.043Z"
+    },
+    {
+      "id": "log-1780965352074-rola",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Motivação\nQuando as redes de computadores sur...\"",
+      "createdAt": "2026-06-09T00:35:52.074Z"
+    },
+    {
+      "id": "log-1780965352176-g8p7",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 5 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 7.865327531s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.1-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"7s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:52.176Z"
+    },
+    {
+      "id": "log-1780965352203-ya4u",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Modelo de Referência OSI da ISO\nPara facilita...\"",
+      "createdAt": "2026-06-09T00:35:52.203Z"
+    },
+    {
+      "id": "log-1780965352355-z15r",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 6 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 7.674584457s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"7s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:52.355Z"
+    },
+    {
+      "id": "log-1780965352400-synp",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"• Criar um padrão para redes que permita a co...\"",
+      "createdAt": "2026-06-09T00:35:52.400Z"
+    },
+    {
+      "id": "log-1780965352488-7wt6",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 7 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 7.534109393s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.1-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"7s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:52.488Z"
+    },
+    {
+      "id": "log-1780965352513-u1pb",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"• Não se refere a nenhum hardware específico ...\"",
+      "createdAt": "2026-06-09T00:35:52.513Z"
+    },
+    {
+      "id": "log-1780965352669-n9xr",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 8 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 7.355360689s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.1-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"7s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:52.669Z"
+    },
+    {
+      "id": "log-1780965352696-yrwi",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"• O modelo OSI é composto por sete camadas. C...\"",
+      "createdAt": "2026-06-09T00:35:52.696Z"
+    },
+    {
+      "id": "log-1780965352781-zlh7",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 9 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 7.241304509s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"7s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:52.781Z"
+    },
+    {
+      "id": "log-1780965352825-xcnx",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Protocolos de Aplicação\nProtocolos de Apresen...\"",
+      "createdAt": "2026-06-09T00:35:52.825Z"
+    },
+    {
+      "id": "log-1780965352963-52rb",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 10 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 7.058480449s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"7s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:35:52.963Z"
+    },
+    {
+      "id": "log-1780965352983-4j2m",
+      "level": "info",
+      "action": "Conversão concluída",
+      "message": "Conversão para áudio concluída com sucesso: \"Redes08 - Modelo ISO-OSI\"",
+      "createdAt": "2026-06-09T00:35:52.983Z"
+    },
+    {
+      "id": "log-1780965446528-tog0",
+      "level": "info",
+      "action": "Conversão iniciada",
+      "message": "Conversão para áudio iniciada: \"Aula 05 - Introducao aos Sistemas Estruturados\"",
+      "createdAt": "2026-06-09T00:37:26.528Z"
+    },
+    {
+      "id": "log-1780965446562-px3g",
+      "level": "info",
+      "action": "Reprocessamento",
+      "message": "Reprocessamento manual solicitado para o audiobook: \"Aula 05 - Introducao aos Sistemas Estruturados\"",
+      "createdAt": "2026-06-09T00:37:26.562Z"
+    },
+    {
+      "id": "log-1780965447111-1om2",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Curso Técnico Integrado em\nManutenção e Supor...\"",
+      "createdAt": "2026-06-09T00:37:27.111Z"
+    },
+    {
+      "id": "log-1780965466237-ak4i",
+      "level": "info",
+      "action": "TTS",
+      "message": "Faixa 1 gerada com voz real do Gemini. Duração: 21 segundos",
+      "createdAt": "2026-06-09T00:37:46.237Z"
+    },
+    {
+      "id": "log-1780965466238-dn2c",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Introdução\n As redes de computadores surgira...\"",
+      "createdAt": "2026-06-09T00:37:46.238Z"
+    },
+    {
+      "id": "log-1780965466341-36kp",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 2 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 13.681624331s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.1-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"13s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:46.341Z"
+    },
+    {
+      "id": "log-1780965466381-0ypu",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Introdução\n A tecnologia das LANs moveu-se r...\"",
+      "createdAt": "2026-06-09T00:37:46.381Z"
+    },
+    {
+      "id": "log-1780965466489-sx2c",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 3 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 13.541899592s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"13s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:46.489Z"
+    },
+    {
+      "id": "log-1780965466521-2kxd",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Introdução\n É cada vez maior a tendência de ...\"",
+      "createdAt": "2026-06-09T00:37:46.521Z"
+    },
+    {
+      "id": "log-1780965466621-7j6g",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 4 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 13.407883319s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.1-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"13s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:46.621Z"
+    },
+    {
+      "id": "log-1780965466643-ktbw",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"O Sistema Estruturado\n Sistemas de Cabeament...\"",
+      "createdAt": "2026-06-09T00:37:46.643Z"
+    },
+    {
+      "id": "log-1780965466983-b60v",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 5 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 13.046002466s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"13s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:46.983Z"
+    },
+    {
+      "id": "log-1780965467021-y438",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"O Sistema Estruturado\n Conceito de Cabeament...\"",
+      "createdAt": "2026-06-09T00:37:47.021Z"
+    },
+    {
+      "id": "log-1780965467117-g86u",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 6 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 12.904696472s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"12s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:47.117Z"
+    },
+    {
+      "id": "log-1780965467159-xqnp",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"O Sistema Estruturado\n Um pouco de estatísti...\"",
+      "createdAt": "2026-06-09T00:37:47.159Z"
+    },
+    {
+      "id": "log-1780965467254-dvoy",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 7 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 12.767592269s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.1-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"12s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:47.254Z"
+    },
+    {
+      "id": "log-1780965467292-npyu",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"O Sistema Estruturado\n Panorama Atual\n Apes...\"",
+      "createdAt": "2026-06-09T00:37:47.292Z"
+    },
+    {
+      "id": "log-1780965467390-dxxe",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 8 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 12.638639368s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"12s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:47.390Z"
+    },
+    {
+      "id": "log-1780965467402-7q4i",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Cabeamento não-estruturado\n É aquele normalm...\"",
+      "createdAt": "2026-06-09T00:37:47.402Z"
+    },
+    {
+      "id": "log-1780965467494-2thw",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 9 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 12.526576795s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-3.1-flash-tts\",\"location\":\"global\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"12s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:47.494Z"
+    },
+    {
+      "id": "log-1780965467515-3uek",
+      "level": "info",
+      "action": "TTS",
+      "message": "Enviando texto para a API de síntese de voz do Gemini: \"Cabeamento não-estruturado\n Outras caracterí...\"",
+      "createdAt": "2026-06-09T00:37:47.515Z"
+    },
+    {
+      "id": "log-1780965467623-ruv1",
+      "level": "warn",
+      "action": "TTS",
+      "message": "Falha ao gerar voz real para a faixa 10 ({\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10, model: gemini-3.1-flash-tts\\nPlease retry in 12.406712018s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"details\":[{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-3.1-flash-tts\"},\"quotaValue\":\"10\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"12s\"}]}}). Usando fallback sintético.",
+      "createdAt": "2026-06-09T00:37:47.623Z"
+    },
+    {
+      "id": "log-1780965467651-t2jm",
+      "level": "info",
+      "action": "Conversão concluída",
+      "message": "Conversão para áudio concluída com sucesso: \"Aula 05 - Introducao aos Sistemas Estruturados\"",
+      "createdAt": "2026-06-09T00:37:47.651Z"
+    },
+    {
+      "id": "log-1780965496203-6pt5",
+      "level": "info",
+      "action": "Concessão de acesso",
+      "message": "Acesso concedido ao usuário \"Vitor Reis\" (user@audiobook.com) para o audiobook \"Aula 05 - Introducao aos Sistemas Estruturados\"",
+      "createdAt": "2026-06-09T00:38:16.203Z"
+    },
+    {
+      "id": "log-1780965499836-08ek",
+      "level": "info",
+      "action": "Concessão de acesso",
+      "message": "Acesso concedido ao usuário \"Vitor Reis\" (user@audiobook.com) para o audiobook \"Redes08 - Modelo ISO-OSI\"",
+      "createdAt": "2026-06-09T00:38:19.836Z"
+    },
+    {
+      "id": "log-1780965524679-ldl1",
+      "level": "warn",
+      "action": "Login",
+      "message": "Falha de login de e-mail inexistente ou senha incorreta: vitoria@gmail.com",
+      "createdAt": "2026-06-09T00:38:44.679Z"
+    },
+    {
+      "id": "log-1780965529791-crll",
+      "level": "warn",
+      "action": "Login",
+      "message": "Falha de login de e-mail inexistente ou senha incorreta: vitoria@gmail.com",
+      "createdAt": "2026-06-09T00:38:49.791Z"
+    },
+    {
+      "id": "log-1780965551364-emcg",
+      "level": "info",
+      "action": "Login",
+      "message": "Usuário realizou login com sucesso: Vitor Reis (user@audiobook.com)",
+      "createdAt": "2026-06-09T00:39:11.364Z"
+    },
+    {
+      "id": "log-1780965773062-653p",
+      "level": "info",
+      "action": "Upload PDF",
+      "message": "PDF enviado: \"Teste: Breve História da IA (Texto Puro)\" (1780965773061-teste-texto-puro-ia.pdf)",
+      "createdAt": "2026-06-09T00:42:53.062Z"
+    },
+    {
+      "id": "log-1780965773064-vyjl",
+      "level": "info",
+      "action": "Geração Automática",
+      "message": "PDF de teste limpo gerado programaticamente para testes de ruído e sintetização técnica: \"Teste: Breve História da IA (Texto Puro)\"",
+      "createdAt": "2026-06-09T00:42:53.064Z"
+    }
+  ]
+}
